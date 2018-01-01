@@ -1,0 +1,44 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>Dragonboat Calls</title>
+  <meta name="description" content="Calls on the boat.">
+  <meta name="author" content="Fullchee Zhang">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <section id="start">
+    <h1>Dragonboat Commands!</h1>
+    <p>Practice some calls you'll here on the boat or the pool</p>
+    <p>A term will pop up and you can do the action</p>
+    <button id="learnLakeCommands" onclick="learnLakeCommands()">Lake Commands</button>
+    <button id="learnPoolCommands" onclick="learnPoolCommands()">Pool Commands</button>
+  </section>
+
+  <section id="question">
+    <h3 id="command"></h3>
+    <p id="description"></p>
+    <p id="timer"></p>
+  </section>
+
+  <section id="answer">
+    <section id="response"></section>
+
+    <section id="feedbackButtons" style="display:none">
+      <button id="not_yet" onclick="notYet()">Not yet!</button>
+      <button id="got_it" onclick="gotIt()">Got it!</button>
+    </section>
+  </section>
+
+  <script src="js/timer.js"></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
