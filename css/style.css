@@ -6,7 +6,6 @@
 h1, h3, p {
 	margin: 0;
 	text-shadow: white 0px 0px 10px;
-	background-color: 111;
 	/*font-weight: bold;*/
 }
 
@@ -15,7 +14,7 @@ h1 {
 }
 
 #content {
-	background-color: #eee;
+	background-color: #fff;
 }
 
 ul {
@@ -36,9 +35,32 @@ body, html {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	opacity: 0.65;
+	/*opacity: 0.65;*/
 }
 
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+
+.button:hover {
+    background-color: white;
+    color: #4CAF50;
+    font-weight: bold;
+    border-style: solid;
+    border-color: #4CAF50;
+    border-width: thick;
+}
 
 /*.caption {
   position: absolute;

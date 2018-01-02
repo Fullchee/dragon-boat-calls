@@ -219,3 +219,6 @@ function notYet() {
 function moveArrayItem(array, from, to) {
     array.splice(to, 0, array.splice(from, 1)[0]);
 }
+
+console.log(backupPoolCommands.map((item) => item.name));
+console.log(backupCommands.map((item) => item.name));
