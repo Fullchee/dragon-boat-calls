@@ -1,7 +1,58 @@
+/* reset the browser defaults */
 * {
 	text-align: center;
+}
+
+h1, h3, p {
+	margin: 0;
+	text-shadow: white 0px 0px 10px;
+	background-color: 111;
+	/*font-weight: bold;*/
+}
+
+h1 {
+	font-size: 200%;
+}
+
+#content {
+	background-color: #eee;
 }
 
 ul {
 	list-style-type: none;
 }
+
+/* full page background image */
+body, html {
+	height: 100%;
+	margin: 0;
+
+}
+
+.bg-img {
+	background-image: url("../images/close-race.jpg");
+
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	opacity: 0.65;
+}
+
+
+/*.caption {
+  position: absolute;
+  left: 0;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
+
+.caption h1, .caption p, .caption h3 {
+  background-color: #111;
+  color: #fff;
+  opacity: 0.5;
+  padding: 18px;
+  font-size: 25px;
+}*/

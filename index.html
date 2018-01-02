@@ -15,29 +15,32 @@
 </head>
 
 <body>
-  <section id="start">
-    <h1>Dragonboat Commands!</h1>
-    <p>A call and its description will pop up.</p>
-    <p>You will have 5 seconds to practice it before the answer pops up.</p>
-    <button id="learnLakeCommands" onclick="learnLakeCommands()">Lake Commands</button>
-    <button id="learnPoolCommands" onclick="learnPoolCommands()">Pool Commands</button>
-  </section>
+  <section class="bg-img">
+    <section id="content">
+      <section id="start" class="caption">
+        <h1>Dragonboat Calls!</h1>
+        <p>A call and its description will pop up.</p>
+        <p>You have 5 seconds before the answer pops up.</p>
+        <button id="learnLakeCommands" onclick="learnLakeCommands()">Lake Commands</button>
+        <button id="learnPoolCommands" onclick="learnPoolCommands()">Pool Commands</button>
+      </section>
 
-  <section id="question">
-    <h3 id="command"></h3>
-    <p id="description"></p>
-    <p id="timer"></p>
-  </section>
+      <section id="question" class="caption">
+        <h3 id="command"></h3>
+        <p id="description"></p>
+        <p id="timer"></p>
+      </section>
 
-  <section id="answer">
-    <section id="response"></section>
+      <section id="answer" class="caption">
+        <section id="response"></section>
 
-    <section id="feedbackButtons" style="display:none">
-      <button id="not_yet" onclick="notYet()">Not yet!</button>
-      <button id="got_it" onclick="gotIt()">Got it!</button>
+        <section id="feedbackButtons" style="display:none">
+          <button id="not_yet" onclick="notYet()">Not yet!</button>
+          <button id="got_it" onclick="gotIt()">Got it!</button>
+        </section>
+      </section>
     </section>
-  </section>
-
+  </section>  
   <script src="js/timer.js"></script>
   <script src="js/index.js"></script>
 </body>
