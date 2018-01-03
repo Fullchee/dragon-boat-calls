@@ -6,7 +6,7 @@
 h1, h3, p {
 	margin: 0;
 	text-shadow: white 0px 0px 10px;
-	/*font-weight: bold;*/
+	font-family: 'Roboto', sans-serif;
 }
 
 h1 {
@@ -57,6 +57,7 @@ body, html {
     background-color: white;
     color: #4CAF50;
     font-weight: bold;
+
     border-style: solid;
     border-color: #4CAF50;
     border-width: thick;
