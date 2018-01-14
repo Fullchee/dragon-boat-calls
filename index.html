@@ -20,9 +20,9 @@
   <section class="bg-img">
     <section id="content">
       <section id="start" class="caption">
-        <h1>Dragonboat Calls!</h1>
-        <p>A call and its description will pop up.</p>
-        <p>You have 5 seconds before the answer pops up.</p>
+        <h1>Learn Dragon Boat Calls!</h1>
+        <p>Pick a set of commands.</p>
+        <p>If you have any feedback/advice, scroll down and leave your message below.</p>
         <button class="button" id="learnLakeCommands" onclick="learnLakeCommands()">Lake Commands</button>
         <button class="button" id="learnPoolCommands" onclick="learnPoolCommands()">Pool Commands</button>
       </section>
@@ -42,7 +42,19 @@
         </section>
       </section>
     </section>
-  </section>  
+  </section>
+
+  <footer>
+    <form id="feedback-form" action="https://formspree.io/fullchee@gmail.com">
+      <h3>Have feedback or things you would change?</h3>
+      <input type="hidden" name="_subject" value="Feedback for the dragon boat calls side project" />
+      <input type="email" name="_replyto" placeholder="Your email" required>
+      <textarea name="message" placeholder="Your message" required></textarea>
+      <input type="text" name="_gotcha" style="display:none" /> <!-- honey pot spam prevention -->
+      <input type="submit" value="Send">
+    </form>
+  </footer>
+
   <script src="js/timer.js"></script>
   <script src="js/index.js"></script>
 </body>
