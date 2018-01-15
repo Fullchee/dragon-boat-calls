@@ -34,6 +34,12 @@ const backupPoolCommands = [
         "gif": ""
     },
     {
+        "name": "Quarter Stroke",
+        "description": `<li><Stop at the knee./li>
+                        <li><Really focus on grabbing as much water as possible./li>`,
+        "gif": ""
+    },
+    {
         "name": "Second Half",
         "description": "The second half of the stroke. Start bending your bottom arm. ",
         "gif": ""
