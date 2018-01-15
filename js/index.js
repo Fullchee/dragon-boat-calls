@@ -14,7 +14,7 @@ const backupPoolCommands = [
               <li>rotation from your core</li>
           </li>
       </ul>`,
-        "gif":""
+        "gif":"videos/paddles-up.mp4"
     },
     {
         "name": "Catch",
@@ -26,7 +26,7 @@ const backupPoolCommands = [
                    <li>makes more sense on the actual boat</li>
                </li>
            </ul>`,
-        "gif": ""
+        "gif": "videos/catch.mp4"
     },
     {
         "name": "Half Stroke",
@@ -53,7 +53,7 @@ const backupLakeCommands = [
     {
         "name":"Back it down",
         "description":"make small strokes with your paddle backwards to move the boat backwards/out of the dock",
-        "gif":""
+        "gif":"videos/back-it-down.mp4"
     },
     {
         "name":"Hold",
@@ -63,12 +63,12 @@ const backupLakeCommands = [
               <li>also known as ‘check’ - you may hear this at regattas</li>
           </li>
       </ul>`,
-        "gif":""
+        "gif":"videos/hold.mp4"
     },
     {
         "name":"Hold hard",
         "description":"place paddle vertically into water to stop the boat from moving",
-        "gif":""
+        "gif":"" // TODO: have a gif of the start of a race
     },
     {
         "name":"Feather",
@@ -77,6 +77,8 @@ const backupLakeCommands = [
           <li>Run paddle back and forth across water
               <li>Imagine spreading peanut butter on toast mmmm to hold the boat steady
               </li>
+              <li>Keeps the boat stable, even in the most rugged water conditions.</li>
+              <li>Usually called when we want paddlers to change seats or switch boats.</li>
           </li>
       </ul>`,
         "gif":""
@@ -87,6 +89,8 @@ const backupLakeCommands = [
       <ul>
           <li>used to straighten up the boat.</li>
           <li>Paddles placed perpendicularly to the side of the boat and strokes taken towards the boat</li>
+          <li>If every paddler on one side draws, the boat translates/moves to that side.</li>
+          <li>Usually called when docking the boat or right before a race.</li>
       </ul>`,
         "gif":""
     },
@@ -100,23 +104,24 @@ const backupLakeCommands = [
               <li>bottom arm extended</li>
               <li>rotation from your core</li>
           </li>
+          <li>Other teams might call this an A Frame.</li>
       </ul>`,
-        "gif":""
+        "gif":"videos/paddles-up.mp4"
     },
     {
         "name":"Take it away",
         "description":"start paddling",
-        "gif":""
+        "gif":"videos/take-it-away.mp4"
     },
     {
         "name":"Race ready",
         "description":"Same as 'Ready Ready'. Race start position, paddles buried in the water, weight over the water",
-        "gif":""
+        "gif":"videos/race-ready.mp4"
     },
     {
         "name":"Ready ready",
         "description":"Same as 'Race ready'. Race start position, paddles buried in the water, weight over the water",
-        "gif":""
+        "gif":"videos/race-ready.mp4"
     },
     {
         "name":"Eyes up",
@@ -127,6 +132,16 @@ const backupLakeCommands = [
         "name":"Let it run",
         "description":"Stop paddling",
         "gif":""
+    },
+    {
+        "name": "Exit Drill",
+        "description": "",
+        "gif": ""
+    },
+    {
+        "name": "Modified Exit",
+        "description": "The idea is to really feel that pop when you push off the water which really pushes your body forward. When you get a strong pop off the back, you really feel your body get pushed forward. Notice in the video how I really have to stop myself in this drill midway.",
+        "gif": "videos/modified-exit.mp4"
     }
 ];
 
@@ -156,7 +171,11 @@ function loadNextCommand() {
     setTimeout(
         function() {
             document.getElementById("answer").style.display = "inline";
-            document.getElementById('response').innerHTML = `<img src="${commands[0].gif}"></img>`;
+            document.getElementById('response').innerHTML =
+            `<video autoplay="autoplay" loop="loop" muted="muted" width="400" height="300">
+                <source src="${commands[0].gif}" type="video/mp4" />
+                I haven't made a video for this command yet.
+            </video>`;
             feedbackButtons.style.display = "inline";
         }, 5000);
 
