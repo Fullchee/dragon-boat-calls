@@ -30,26 +30,25 @@ const backupPoolCommands = [
     },
     {
         "name": "Half Stroke",
-        "description": "The first half of the stroke. Emphasis on the rotation of the stroke. Keep your bottom arm straight. Stop at around the mid thigh.",
-        "gif": ""
+        "description": "The first half of the stroke. Emphasize the  on the rotation of the stroke. Keep your bottom arm straight. Stop at around the mid thigh.",
+        "gif": "videos/half-stroke.mp4"
     },
-    {
-        "name": "Quarter Stroke",
-        "description": `<li><Stop at the knee./li>
-                        <li><Really focus on grabbing as much water as possible./li>`,
-        "gif": ""
-    },
+    // {
+    //     "name": "Quarter Stroke",
+    //     "description": `<li><Stop at the knee./li>
+    //                     <li><Really focus on grabbing as much water as possible./li>`,
+    //     "gif": ""
+    // },
     {
         "name": "Second Half",
         "description": "The second half of the stroke. Start bending your bottom arm. ",
-        "gif": ""
-    },
-    {
-        "name": "Recovery",
-        "description": "Bring your paddle up to the 'Paddles up' position leading with your top arm.",
-        "gif": ""
+        "gif": "videos/second-half.mp4"
     }
-
+    // {
+    //     "name": "Recovery",
+    //     "description": "Bring your paddle up to the 'Paddles up' position leading with your top arm.",
+    //     "gif": ""
+    // }
 ];
 
 // deep copy of the pool commands
@@ -74,7 +73,7 @@ const backupLakeCommands = [
     {
         "name":"Hold hard",
         "description":"place paddle vertically into water to stop the boat from moving",
-        "gif":"" // TODO: have a gif of the start of a race
+        "gif":"videos/ready-ready.mp4" // TODO: have a gif of the start of a race
     },
     {
         "name":"Feather",
@@ -87,7 +86,7 @@ const backupLakeCommands = [
               <li>Usually called when we want paddlers to change seats or switch boats.</li>
           </li>
       </ul>`,
-        "gif":""
+        "gif":"videos/feather.mp4"
     },
     {
         "name":"Draw",
@@ -98,7 +97,7 @@ const backupLakeCommands = [
           <li>If every paddler on one side draws, the boat translates/moves to that side.</li>
           <li>Usually called when docking the boat or right before a race.</li>
       </ul>`,
-        "gif":""
+        "gif":"videos/draw.mp4"
     },
     {
         "name":"Paddles up",
@@ -129,21 +128,21 @@ const backupLakeCommands = [
         "description":"Same as 'Race ready'. Race start position, paddles buried in the water, weight over the water",
         "gif":"videos/race-ready.mp4"
     },
-    {
-        "name":"Eyes up",
-        "description":"call made when the boat isn’t in sync (remember how Ben taught us to watch the people at the front, and not the person sitting in front of you)",
-        "gif":""
-    },
-    {
-        "name":"Let it run",
-        "description":"Stop paddling",
-        "gif":""
-    },
-    {
-        "name": "Exit Drill",
-        "description": "",
-        "gif": ""
-    },
+    // {
+    //     "name":"Eyes up",
+    //     "description":"call made when the boat isn’t in sync (remember how Ben taught us to watch the people at the front, and not the person sitting in front of you)",
+    //     "gif":""
+    // },
+    // {
+    //     "name":"Let it run",
+    //     "description":"Stop paddling",
+    //     "gif":""
+    // },
+    // {
+    //     "name": "Exit Drill",
+    //     "description": "",
+    //     "gif": ""
+    // },
     {
         "name": "Modified Exit",
         "description": "The idea is to really feel that pop when you push off the water which really pushes your body forward. When you get a strong pop off the back, you really feel your body get pushed forward. Notice in the video how I really have to stop myself in this drill midway.",
