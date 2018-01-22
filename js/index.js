@@ -72,7 +72,7 @@ const backupLakeCommands = [
     },
     {
         "name":"Hold hard",
-        "description":"place paddle vertically into water to stop the boat from moving",
+        "description":"<p>Place paddle vertically into water to stop the boat from moving</p>",
         "gif":"videos/ready-ready.mp4" // TODO: have a gif of the start of a race
     },
     {
@@ -93,7 +93,7 @@ const backupLakeCommands = [
         "description":`
       <ul>
           <li>used to straighten up the boat.</li>
-          <li>Paddles placed perpendicularly to the side of the boat and strokes taken towards the boat</li>
+          <li>Move water under the boat so the boat moves to one side.</li>
           <li>If every paddler on one side draws, the boat translates/moves to that side.</li>
           <li>Usually called when docking the boat or right before a race.</li>
       </ul>`,
@@ -121,12 +121,12 @@ const backupLakeCommands = [
     {
         "name":"Race ready",
         "description":"Same as 'Ready Ready'. Race start position, paddles buried in the water, weight over the water",
-        "gif":"videos/race-ready.mp4"
+        "gif":"videos/ready-ready.mp4"
     },
     {
         "name":"Ready ready",
         "description":"Same as 'Race ready'. Race start position, paddles buried in the water, weight over the water",
-        "gif":"videos/race-ready.mp4"
+        "gif":"videos/ready-ready.mp4"
     },
     // {
     //     "name":"Eyes up",
