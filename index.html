@@ -8,6 +8,9 @@
   <meta name="description" content="Calls on the boat.">
   <meta name="author" content="Fullchee Zhang">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta property="og:title" content="Dragon boat calls">
+  <meta property="og:url" content="fullchee.github.io/dragonboat-calls"/>
+  
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
   <link rel="stylesheet" href="css/style.css">
 
@@ -22,9 +25,8 @@
       <section id="start" class="caption">
         <h1>Learn Dragon Boat Calls!</h1>
         <p>Pick a set of commands.</p>
-        <p>If you have any feedback/advice, please leave your message in the 
-          <a href="https://docs.google.com/document/d/1C_HMDdkaPDRurxhNTHoynoveTVaWnfRTiIbFkNM1uDg/edit?usp=sharing">google doc</a> 
-          or leave an email message below (scroll down).
+        <p>
+<a href="https://docs.google.com/document/d/1C_HMDdkaPDRurxhNTHoynoveTVaWnfRTiIbFkNM1uDg/edit?usp=sharing">If you have any feedback/advice (on anything!), please leave your message in the google doc</a>
         </p>
         <button class="button" id="learnLakeCommands" onclick="learnLakeCommands()">Lake Commands</button>
         <button class="button" id="learnPoolCommands" onclick="learnPoolCommands()">Pool Commands</button>
@@ -46,18 +48,6 @@
       </section>
     </section>
   </section>
-
-  <footer>
-    <form method="POST" id="feedback-form" action="https://formspree.io/fullchee@gmail.com">
-      <h3>Have feedback or things you would change?</h3>
-      <input type="hidden" name="_subject" value="Feedback for the dragon boat calls side project" />
-      <input type="email" name="_replyto" placeholder="Your email" required>
-      <textarea name="message" placeholder="Your message" required></textarea>
-      <input type="text" name="_gotcha" style="display:none" /> <!-- honey pot spam prevention -->
-      <input type="submit" value="Send">
-    </form>
-  </footer>
-
   <script src="js/timer.js"></script>
   <script src="js/index.js"></script>
 </body>
