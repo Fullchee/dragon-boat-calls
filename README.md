@@ -2,7 +2,7 @@
 
 Provides a brief primer on the calls that would be heard during a lake practice or a pool practice.
 
-This project was inspired by the website https://shortcutfoo.com
+This project was inspired by the website https://www.shortcutfoo.com
 
 ### Website
 https://fullchee.github.io/dragonboat-calls/
