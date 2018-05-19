@@ -33,16 +33,23 @@ const backupPoolCommands = [
         "description": "The first half of the stroke. Emphasize the  on the rotation of the stroke. Keep your bottom arm straight. Stop at around the mid thigh.",
         "gif": "videos/half-stroke.mp4"
     },
-    // {
-    //     "name": "Quarter Stroke",
-    //     "description": `<li><Stop at the knee./li>
-    //                     <li><Really focus on grabbing as much water as possible./li>`,
-    //     "gif": ""
-    // },
+    {
+        "name": "Quarter Stroke",
+        "description": `<li><Stop at the knee./li>
+                        <li><Really focus on grabbing as much water as possible./li>
+                        <li>You should feel some tension in your bottom lat </li>
+                        <li>The bottom arm should be completely straight</li>`,
+        "gif": ""
+    },
     {
         "name": "Second Half",
         "description": "The second half of the stroke. Start bending your bottom arm. ",
         "gif": "videos/second-half.mp4"
+    },
+    {
+        "name":"Let it run",
+        "description":"Stop paddling",
+        "gif":""
     }
     // {
     //     "name": "Recovery",
@@ -128,16 +135,16 @@ const backupLakeCommands = [
         "description":"Same as 'Race ready'. Race start position, paddles buried in the water, weight over the water",
         "gif":"videos/ready-ready.mp4"
     },
-    // {
-    //     "name":"Eyes up",
-    //     "description":"call made when the boat isn’t in sync (remember how Ben taught us to watch the people at the front, and not the person sitting in front of you)",
-    //     "gif":""
-    // },
-    // {
-    //     "name":"Let it run",
-    //     "description":"Stop paddling",
-    //     "gif":""
-    // },
+    {
+        "name":"Eyes up",
+        "description":"call made when the boat isn’t in sync (remember how Ben taught us to watch the people at the front, and not the person sitting in front of you)",
+        "gif":""
+    },
+    {
+        "name": "Let it run",
+        "description": "Stop paddling. Only stop paddling when your steers calls it. Don't listen to the other boat's steers.",
+        "gif": ""
+    },
     // {
     //     "name": "Exit Drill",
     //     "description": "",
@@ -147,7 +154,73 @@ const backupLakeCommands = [
         "name": "Modified Exit",
         "description": "The idea is to really feel that pop when you push off the water which really pushes your body forward. When you get a strong pop off the back, you really feel your body get pushed forward. Notice in the video how I really have to stop myself in this drill midway.",
         "gif": "videos/modified-exit.mp4"
+    },
+    {
+        "name": "Front Lefts Draw",
+        "description": "The front 3 left paddlers (not the front) start drawing water towards them in sync. This is usually called when turning during a 2K",
+        "gif": ""
+    },
+    {
+        "name": "Back Rights Draw",
+        "description": "The back 3 right side paddlers (seat 8, 9, 10) start drawing water towards them in sync. This is sometimes called when turning during a 2K when the coxwain really needs a tight turn.",
+        "gif": ""
+    },
+    {
+        "name": "Front Half",
+        "description": "Rows 1 through 5",
+        "gif": ""
+    },
+    {
+        "name": "Back Half",
+        "description": "Rows 6 through 10",
+        "gif": ""
+    },
+    {
+        "name": "Pry",
+        "description": "This call is never used during a race and rarely called during practice. This is the opposite of drawing. When prying, you push water away from you and away from the boat.",
+        "gif": ""
+    },
+    {
+        "name": "Power Now",
+        "description":
+            `<li>The first two strokes after the start.</li>
+            <li>The first stroke after the start, the steers and drummer yell "POWER" and you pull back to the hip</li>
+            <li>The second stroke after the start, the steers and drummer yell "NOW" and you reach out to get the full length of the catch.</li>
+            `,
+        "gif": ""
+    },
+    {
+        "name": "Back Six! Give Me Five, NOW!",
+        "description": "The back three rows (the rockets), have to give 5 of their biggest strokes. This is usually called during the 2K when we're tired and we need to get some oomphf",
+        "gif": ""
+    },
+    {
+        "name": "Five Five in TWO! ONE!",
+        "description": `<li>We need to pick up our cruising speed we lost during the turn.</li>
+        <li>So, we have 10 "start stroke"-esque strokes</li>
+        <li>These strokes are faster than the cruising, slower than an actual start and they still have the full length of a stroke</li>
+        `,
+        "gif": ""
+    },
+    {
+        "name": "Turning in TWO! ONE!",
+        "description": `<li>Turns are not a time to take a break. - Ben</li>
+        <li>The left side paddlers lean.</li>
+        <li>The water will get heavier because we will slow down</li>
+        `,
+        "gif": ""
+    },
+    {
+        "name": "Rights! Power Through!",
+        "description": `<li>This is sometimes called during a turn.</li>
+        <li>If you paddle on the right on an OC with broken steering, you might notice that the boat starts steering to the left. Physics, google it if you're interested.</li>
+        <li>The water will get heavier because we will slow down</li>
+        <li>The rights need to keep on paddling strong so the boat will turn.</li>
+        <li>If the rights take it easy, we might make a wide turn and lose ~3 seconds per turn</li>`,
+        "gif": ""
     }
+
+
 ];
 
 // deep copy of lake commands
