@@ -12,3 +12,7 @@ This is still currently a work in progress.
 ### Forking
 Want something to be changed? Report an issue here: https://github.com/Fullchee/dragonboat-calls/issues
 
+### TODOs
+* Create a Table of Contents
+## Concepts that are difficult to grasp that you need to feel to get a sense of
+* leg drive

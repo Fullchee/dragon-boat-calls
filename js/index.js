@@ -197,8 +197,7 @@ const backupLakeCommands = [
     {
         "name": "Five Five in TWO! ONE!",
         "description": `<li>We need to pick up our cruising speed we lost during the turn.</li>
-        <li>So, we have 10 "start stroke"-esque strokes</li>
-        <li>These strokes are faster than the cruising, slower than an actual start and they still have the full length of a stroke</li>
+        <li>So, we have 10 strokes that are like a start to pick up our speed.</li>
         `,
         "gif": ""
     },
