@@ -14,5 +14,6 @@ Want something to be changed? Report an issue here: https://github.com/Fullchee/
 
 ### TODOs
 * Create a Table of Contents
+* Create a google forms feedback link
 ## Concepts that are difficult to grasp that you need to feel to get a sense of
 * leg drive
